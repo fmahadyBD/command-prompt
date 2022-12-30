@@ -28,6 +28,32 @@ There are many more commands that you can use in the Command Prompt, and you can
   13) <b>  tasklist  :    </b> Displays a list of running tasks and their status   </br>
   15) <b> taskkill  :    </b> Terminates a running task   </br>
   16) <b> echo  :    </b> Displays a message or the value of a variablek   </br>
+  17) <b> ping  :    </b> Terminates a running task   </br>
+  18  <b> sfc  :    </b> Scan and repair system files.   </br>
+  19) <b> set  :    </b> Display or set environment variables.   </br>
+  20) <b> shutdown  :    </b> Shutdown or restart the computer.   </br>
+  21) <b> netstat  :    </b> Display network statistics and information.   </br>
+  22) <b> route :    </b> Display and modify the IP routing table.   </br>
+  23) <b> driverquery  :    </b>Display a list of installed device drivers.
+net: Manage network resources.  </br>
+  24) <b> netdom  :    </b> Manage domain and trust relationships.   </br>
+  25) <b> nbtstat  :    </b> Display protocol statistics and current connections using NetBIOS over TCP/IP.   </br>
+  26) <b> sc  :    </b> Manage services.  </br>
+  27) <b> regg  :    </b>  Manage the Windows Registry.  </br>
+  28) <b> fsutil  :    </b> Perform various file system tasks.   </br>
+  29) <b> diskpart  :    </b> Manage disks, partitions, and volumes.
+defrag: Defragment a dis   </br>
+  30) <b> compact  :    </b> Compress or uncompress files and folders.   </br>
+  31) <b> robocopy  :    </b> Copy files and directories   </br>
+  32) <b> xcopy  :    </b> Copy files and directories   </br>
+  33) <b> find  :    </b> Search for a specific text string in a file or files.   </br>
+  34) <b> ping  :    </b> Terminates a running task   </br>
+  35) <b> ping  :    </b> Terminates a running task   </br>
+  36) <b> ping  :    </b> Terminates a running task   </br>
+  37) <b> ping  :    </b> Terminates a running task   </br>
+  38) <b> ping  :    </b> Terminates a running task   </br>
+  39) <b> ping  :    </b> Terminates a running task   </br>
+  40) <b> ping  :    </b> Terminates a running task   </br>
   
   
   </p>
