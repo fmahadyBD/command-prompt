@@ -1,4 +1,7 @@
 # command-prompt
+
+![image](https://user-images.githubusercontent.com/109776849/210073212-8705b35a-ceb6-4c3a-92d0-1d56e51b05d8.png)
+
 <p>The Command Prompt is a command line interface (CLI) in Windows operating systems that allows users to enter and execute commands and programs. It is a powerful tool that can be used to perform various tasks on a computer, such as troubleshooting, system maintenance, and automation.
 
 To open the Command Prompt, you can type "cmd" into the search box on the Start menu or taskbar and press Enter. Alternatively, you can also press the Windows key + R, type "cmd" into the Run dialog, and press Enter.
