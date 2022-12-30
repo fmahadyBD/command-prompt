@@ -47,13 +47,13 @@ defrag: Defragment a dis   </br>
   31) <b> robocopy  :    </b> Copy files and directories   </br>
   32) <b> xcopy  :    </b> Copy files and directories   </br>
   33) <b> find  :    </b> Search for a specific text string in a file or files.   </br>
-  34) <b> ping  :    </b> Terminates a running task   </br>
-  35) <b> ping  :    </b> Terminates a running task   </br>
-  36) <b> ping  :    </b> Terminates a running task   </br>
-  37) <b> ping  :    </b> Terminates a running task   </br>
-  38) <b> ping  :    </b> Terminates a running task   </br>
-  39) <b> ping  :    </b> Terminates a running task   </br>
-  40) <b> ping  :    </b> Terminates a running task   </br>
+  34) <b> certutil  :    </b> anage certificates and certificate trust lists.   </br>
+  35) <b> cipher  :    </b> Manage encryption of files and folders.   </br>
+  36) <b> lpksetup  :    </b> Install and manage language packs.   </br>
+  37) <b> ocsetup  :    </b> Install and manage optional components.   </br>
+  38) <b> pkgmgr  :    </b>  Install and manage packages.   </br>
+  39) <b> powercfg :    </b>  Configure power settings.  </br>
+  40) <b>winsat  :    </b>Test and display the current performance rating of the computer   </br>
   
   
   </p>
