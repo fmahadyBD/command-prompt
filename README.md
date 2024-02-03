@@ -59,6 +59,7 @@ defrag: Defragment a dis   </br>
   38) <b> pkgmgr  :    </b>  Install and manage packages.   </br>
   39) <b> powercfg :    </b>  Configure power settings.  </br>
   40) <b>winsat  :    </b>Test and display the current performance rating of the computer   </br>
+  41> <b>sfc /scannow  : </b> Scan the computer is it in good helth or any bug here
   
   
   </p>
