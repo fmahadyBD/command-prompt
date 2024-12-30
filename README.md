@@ -1,65 +1,99 @@
 # Command-prompt
-<br>
 
 ![image](https://user-images.githubusercontent.com/109776849/210073212-8705b35a-ceb6-4c3a-92d0-1d56e51b05d8.png)
 
-<p>The Command Prompt is a command line interface (CLI) in Windows operating systems that allows users to enter and execute commands and programs. It is a powerful tool that can be used to perform various tasks on a computer, such as troubleshooting, system maintenance, and automation.
+# Command Prompt Commands and Descriptions
 
-To open the Command Prompt, you can type "cmd" into the search box on the Start menu or taskbar and press Enter. Alternatively, you can also press the Windows key + R, type "cmd" into the Run dialog, and press Enter.
+The Command Prompt is a command-line interface (CLI) in Windows operating systems that allows users to enter and execute commands. It can be used for various tasks, such as troubleshooting, system maintenance, and automation.
 
-Once the Command Prompt is open, you can enter commands and press Enter to execute them. 
-</br></br>
-There are many more commands that you can use in the Command Prompt, and you can also use various command-line arguments to customize the behavior of these commands.</p>
-</br>
+## How to Open Command Prompt
+- **Using Start Menu:** Type `cmd` in the search box and press Enter.
+- **Using Run Dialog:** Press `Windows key + R`, type `cmd`, and press Enter.
+
+Once open, you can enter commands and press Enter to execute them.
+
+---
+
+## Common Commands and Their Descriptions
+
+1. **`ctrl+c`**: Stops all running programs in the Command Prompt.
+2. **`dir`**: Displays the contents of the current directory.
+3. **`del`**: Deletes specified files.
+4. **`type`**: Displays the contents of a file.
+5. **`netstat`**: Displays active network connections.
+6. **`ipconfig`**: Displays the IP configuration of the system.
+7. **`md`**: Creates a new directory.
+8. **`rd`**: Removes a directory.
+9. **`rename`**: Renames a file or directory.
+10. **`time`**: Displays or sets the system time.
+11. **`date`**: Displays or sets the system date.
+12. **`systeminfo`**: Displays system information, such as the OS version and installed hardware.
+13. **`tasklist`**: Displays a list of running tasks and their status.
+14. **`taskkill`**: Terminates a running task.
+15. **`echo`**: Displays a message or the value of a variable.
+16. **`ping`**: Tests connectivity to a specific IP address or hostname.
+17. **`sfc`**: Scans and repairs system files. Use `sfc /scannow` for a full scan.
+18. **`set`**: Displays or sets environment variables.
+19. **`shutdown`**: Shuts down or restarts the computer.
+20. **`route`**: Displays and modifies the IP routing table.
+21. **`driverquery`**: Displays a list of installed device drivers.
+22. **`netdom`**: Manages domain and trust relationships.
+23. **`nbtstat`**: Displays protocol statistics and current connections using NetBIOS over TCP/IP.
+24. **`sc`**: Manages Windows services.
+25. **`reg`**: Manages the Windows Registry.
+26. **`fsutil`**: Performs various file system tasks.
+27. **`diskpart`**: Manages disks, partitions, and volumes.
+28. **`compact`**: Compresses or uncompresses files and folders.
+29. **`robocopy`**: Copies files and directories (robust file copy).
+30. **`xcopy`**: Copies files and directories, including subdirectories.
+31. **`find`**: Searches for a specific text string in a file or files.
+32. **`certutil`**: Manages certificates and certificate trust lists.
+33. **`cipher`**: Manages encryption of files and folders.
+34. **`lpksetup`**: Installs and manages language packs.
+35. **`ocsetup`**: Installs and manages optional components.
+36. **`pkgmgr`**: Installs and manages packages.
+37. **`powercfg`**: Configures power settings.
+38. **`winsat`**: Tests and displays the computer’s current performance rating.
+39. **`sfc /scannow`**: Performs a full scan of the computer for bugs and system health.
+
+---
+
+## Explanation of Selected Commands
+
+### `dir`
+Lists the contents of the current directory.
+- Usage: `dir`
+- Example: `dir C:\Users`
+
+### `ipconfig`
+Displays network configuration details, such as IP address, subnet mask, and default gateway.
+- Usage: `ipconfig`
+- Example: `ipconfig /all`
+
+### `ping`
+Tests the connectivity to a specific address or hostname.
+- Usage: `ping [address]`
+- Example: `ping google.com`
+
+### `taskkill`
+Ends a task or process.
+- Usage: `taskkill /IM [process_name] /F`
+- Example: `taskkill /IM notepad.exe /F`
+
+### `diskpart`
+Manages disks, partitions, and volumes.
+- Usage: `diskpart`
+  1. Type `list disk` to display available disks.
+  2. Type `select disk [number]` to choose a disk.
+  3. Type `create partition primary` to create a partition.
+
+---
+
+## Additional Information
+- **Customizing Commands:** Many commands support additional arguments and flags. Use `[command] /?` to see available options.
+- **Accessing Command History:** Use the up and down arrow keys to navigate through previously entered commands.
+- **Admin Privileges:** Some commands require administrative rights. Run Command Prompt as an administrator by right-clicking it and selecting "Run as administrator."
+
+---
 
 
-
-
-
-<p>
-  <h3>Here the command and Short description</h3></br><hr>
-  1)  <b>  ctrl+c   :    </b>  It stop all running programme   </br>
-  2)  <b>  dir      :    </b>  It Show current directory   </br>
-  3)  <b>  del      :    </b>  It will show delailes of file  </br>
-  4)  <b>  type     :    </b>  Displays the contents of a file<   </br>
-  5)  <b>  netstat   :    </b> Displays active network connections   </br>
-  6)  <b>  ipconfig   :    </b> Displays the IP configuration of the  </br>
-  7)  <b>  md   :    </b>  Creates a new directory   </br>
-  8)  <b>  rd   :    </b>  Removes a directory   </br>
-  9)  <b>  rename  :    </b> Renames a file or directory   </br>
-  10) <b>  time  :    </b> Displays or sets the system time   </br>
-  11) <b>  date  :    </b> Displays or sets the system date   </br>
-  12) <b>  systeminfo  :    </b> Displays system information, such as the operating system version and installed hardware  </br>
-  13) <b>  tasklist  :    </b> Displays a list of running tasks and their status   </br>
-  15) <b> taskkill  :    </b> Terminates a running task   </br>
-  16) <b> echo  :    </b> Displays a message or the value of a variablek   </br>
-  17) <b> ping  :    </b> Terminates a running task   </br>
-  18  <b> sfc  :    </b> Scan and repair system files.   </br>
-  19) <b> set  :    </b> Display or set environment variables.   </br>
-  20) <b> shutdown  :    </b> Shutdown or restart the computer.   </br>
-  21) <b> netstat  :    </b> Display network statistics and information.   </br>
-  22) <b> route :    </b> Display and modify the IP routing table.   </br>
-  23) <b> driverquery  :    </b>Display a list of installed device drivers.
-net: Manage network resources.  </br>
-  24) <b> netdom  :    </b> Manage domain and trust relationships.   </br>
-  25) <b> nbtstat  :    </b> Display protocol statistics and current connections using NetBIOS over TCP/IP.   </br>
-  26) <b> sc  :    </b> Manage services.  </br>
-  27) <b> regg  :    </b>  Manage the Windows Registry.  </br>
-  28) <b> fsutil  :    </b> Perform various file system tasks.   </br>
-  29) <b> diskpart  :    </b> Manage disks, partitions, and volumes.
-defrag: Defragment a dis   </br>
-  30) <b> compact  :    </b> Compress or uncompress files and folders.   </br>
-  31) <b> robocopy  :    </b> Copy files and directories   </br>
-  32) <b> xcopy  :    </b> Copy files and directories   </br>
-  33) <b> find  :    </b> Search for a specific text string in a file or files.   </br>
-  34) <b> certutil  :    </b> anage certificates and certificate trust lists.   </br>
-  35) <b> cipher  :    </b> Manage encryption of files and folders.   </br>
-  36) <b> lpksetup  :    </b> Install and manage language packs.   </br>
-  37) <b> ocsetup  :    </b> Install and manage optional components.   </br>
-  38) <b> pkgmgr  :    </b>  Install and manage packages.   </br>
-  39) <b> powercfg :    </b>  Configure power settings.  </br>
-  40) <b>winsat  :    </b>Test and display the current performance rating of the computer   </br>
-  41> <b>sfc /scannow  : </b> Scan the computer is it in good helth or any bug here
-  
-  
-  </p>
